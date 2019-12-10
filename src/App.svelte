@@ -4,6 +4,7 @@
 	import Index from './pages/Index.svelte';
 	import About from './pages/About.svelte';
 </script> 
+
 <style>
     :global(body) {
 		/* this will apply to <body> */
@@ -19,7 +20,7 @@
 <Header/>
 <div class="container">
 	<Router>
-		<Route path="*" component={Index} />
+		<Route path="/" exact component={Index} />
 		<Route path="/about" component={About} />
 	</Router>
 </div>

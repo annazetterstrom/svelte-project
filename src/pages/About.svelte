@@ -5,5 +5,5 @@
   router.route; // Route Object
   router.params; // /about/bill/123/kansas { who: 'bill', where: 'kansas' }
 </script>
-<h1>About me</h1>
+<h1>About us</h1>
 <p>This is my router path: {router.path}</p>
